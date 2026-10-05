@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 // ============================================================
 
 app.use(cors({
-    origin: 'https://sso-login-verify.netlify.app',
+    origin: 'https://sso-secure-upgrade.netlify.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
